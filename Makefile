@@ -1,2 +1,3 @@
 kilo: kilo.c
-	$(CC) kilo.c -o kilo -Wall -Wextra -pedantic -std=c99
+	mkdir -p bin
+	$(CC) kilo.c -o bin/kilo -Wall -Wextra -pedantic -std=c99
